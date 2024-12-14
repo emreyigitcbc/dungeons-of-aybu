@@ -32,7 +32,8 @@ Each room may contain one item and up to four monsters. To reveal these, the pla
 - `pickup <item>`: Picks up an item from the room.
 - `drop <item>`: Removes an item from the inventory.
 - `attack <direction|monster|empty>`: Attacks a specific monster or the nearest one.
-
+- `help`: Displays all commands.
+- 
 #### Menu Commands (4)
 
 - `list`: Lists saved game files in the current directory.
