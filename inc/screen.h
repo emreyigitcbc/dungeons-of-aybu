@@ -10,6 +10,7 @@
 #else
     #include <sys/ioctl.h>
     #include <unistd.h>
+    #include <stdarg.h>
 #endif
 
 #include "room.h"
