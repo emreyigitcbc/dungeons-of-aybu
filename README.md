@@ -80,4 +80,6 @@ typedef struct Player {
 - `commands.c:` Handles command parsing and execution.
 - `save.c:` Manages game saving and loading, storing structure data and associated pointers sequentially.
 ### Building the Game
-A Makefile is included. Successfully compiled using w64devtoolskit-gcc on Windows 11. Compatibility with other platforms is untested.
+A Makefile is included. Simply typing `make` will build the project.
+
+Compiles and works on, Windows 11, Linux Ubuntu 24, MacOS 10.14 Mojave!
