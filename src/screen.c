@@ -40,7 +40,7 @@ void get_terminal_size()
     if (ioctl(STDOUT_FILENO, TIOCGWINSZ, &w) == 0)
     {
         WIDTH = w.ws_col;
-        HEIGHT = w.ws_row;
+        HEIGHT = w.ws_row - 1; // -1 idk but OS gives 1 extra
     }
     else
     {
